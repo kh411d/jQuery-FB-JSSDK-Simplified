@@ -5,6 +5,7 @@ JQuery Plugin to simplified FB sdk call
 
 How to Use:
 
+<code>
 $(document).ready(function() {	
 		//Init Plugin
         $(document).fb({
@@ -21,3 +22,4 @@ $(document).ready(function() {
         //Publish feed after page loaded
         $(document).fb('feed',{name:'',caption:'{*actor*}',description:'',picture:'',link:''});
 });
+</code>
