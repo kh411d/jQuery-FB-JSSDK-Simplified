@@ -5,12 +5,12 @@ JQuery Plugin to simplified FB sdk call
 
 How to Use:
 
-<code>
+```javascript
 $(document).ready(function() {	
 		//Init Plugin
         $(document).fb({
                         options:{appId: 'YOUR-APP-ID'},
-                        perms: 'YOUR-APP-PERMISSION' 
+                        perms: 'publish_stream,email' 
                         });
 
         //Facebook login with click Event with FB.login call                
@@ -22,4 +22,4 @@ $(document).ready(function() {
         //Publish feed after page loaded
         $(document).fb('feed',{name:'',caption:'{*actor*}',description:'',picture:'',link:''});
 });
-</code>
+```
